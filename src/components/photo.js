@@ -54,7 +54,7 @@ function Photos()
   }
    return(
     <div id="third" style={{height:"800px"}}>
-      <div class="row" style={{height:"5%"}}>
+      <div class="row mb-3" style={{height:"5%"}}>
        <div class="col-12" id="btnpht" style={{textAlign:"right"}}>
         <button style={{...btn,backgroundColor:"#00357B",color:"white"}}>EXTERIORS</button>
         <button style={{...btn,color:"#00357B",backgroundColor:"white"}}>INTERIORS</button>
@@ -72,16 +72,16 @@ function Photos()
        </div>
     </div>
     <div class="row" style={{height:"20%"}}>
-       <div class="col-sm-3 d-sm-block d-none border border-success">
+       <div class="col-sm-3 d-sm-block d-none">
        <img src={g2}  alt="img" style={{borderRadius:"14px"}} class="img-fluid"></img>
        </div>
-       <div class="col-sm-3 d-sm-block d-none border border-success">
+       <div class="col-sm-3 d-sm-block d-none">
        <img src={g3}  alt="img" style={{borderRadius:"14px"}} class="img-fluid"></img>
        </div>
-       <div class="col-sm-3 d-sm-block d-none border border-success">
+       <div class="col-sm-3 d-sm-block d-none">
        <img src={g4}  alt="img" style={{borderRadius:"14px"}} class="img-fluid"></img>
        </div>
-       <div class="col-sm-3 d-sm-block d-none  border border-success">
+       <div class="col-sm-3 d-sm-block d-none ">
        <img src={g5}  alt="img" style={{borderRadius:"14px"}} class="img-fluid"></img>
        </div>
     </div>

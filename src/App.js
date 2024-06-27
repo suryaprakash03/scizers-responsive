@@ -9,9 +9,7 @@ function App() {
       <div style={{padding:"0px"}}>
       <Home></Home>
       <br></br>
-      <br></br>
       <Amt></Amt>
-      <br></br>
       <br></br>
       <Photos></Photos>
       </div>

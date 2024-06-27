@@ -5,12 +5,12 @@ function Ftbox(props)
         // width:"73px",
         // height:"5px",
         // borderRadius:"13px 0px 0px 0px",
-        width:"70px",
-        height:"5px",
+        width:"20%",
+        height:"5%",
         opacity:"12%",
         backgroundColor:"#00357B",
         display:"block",
-        textAlign:"center"
+        margin:"0px auto"
         
     }
     let off = {
@@ -35,11 +35,11 @@ function Ftbox(props)
     }
     return(
         <>
-            <img src={props.img} alt="img" width="1%" height="1%"></img>
+            <img src={props.img} alt="img" width="13%" height="30%" style={{display:"block",margin:"0px auto"}}></img>
             {/* style={{display:"block",margin:"0px auto"}} */}
             <h4 style={ty}>{props.type}</h4>
             <h3 style={off}>{props.offer}</h3>
-            <h6 style={{}}><span style={rec}></span></h6>
+            <span style={rec}></span>
         </>
     );
 }
